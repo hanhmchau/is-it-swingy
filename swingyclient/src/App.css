@@ -1,0 +1,44 @@
+html {
+	overflow-y: auto;
+}
+
+.hero-body button {
+	margin-top: 2rem;
+}
+
+button.is-loading .is-hidden-when-loading {
+	opacity: 0;
+}
+
+.has-padding-2 {
+	padding: 1rem;
+}
+
+.has-padding-2-bottom {
+	padding-bottom: 1rem;
+}
+
+.graph-container {
+	height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.graph-component {
+	width: 100%;
+	height: 100%;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.hero-footer {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1281px) {
+  .graph-component {
+    width: 75%;
+  }
+}
