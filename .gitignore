@@ -2,3 +2,4 @@
 /swingyclient/build
 /swingyclient/node_modules
 .env
+/front
